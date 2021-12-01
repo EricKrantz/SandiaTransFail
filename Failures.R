@@ -20,3 +20,4 @@ all_OS_fails <- inner_join(tele, fails) %>%
     group_by(LoggerOS) %>% 
     summarize(no_fails = n())
 
+
